@@ -236,4 +236,5 @@ print(f"加载完成: {len(images)} 张图像")
 ## 📞 联系方式
 
 - 作者: parcone
-- 邮箱: parcone@github.com
+- 邮箱: p185358666@gmail.com
+- GitHub: https://github.com/parcone
