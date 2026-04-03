@@ -89,7 +89,7 @@ ISPRS_Potsdam/
 - **图像分辨率**: 约3000×3000像素 (9cm地面分辨率)
 - **波段组合**: RGB、IRRG、DSM
 - **类别数**: 6类 (表面、建筑、低植被、树木、汽车、背景)
-- **数据大小**: ~2GB
+- **数据大小**: ~3GB
 
 #### 🔗 下载链接
 - **百度网盘**: [Vaihingen数据集](https://pan.baidu.com/s/1SA49cZGGuMvanqKmXvDk9w)
@@ -108,7 +108,7 @@ ISPRS_Potsdam/
 - **覆盖区域**: 多伦多市区
 - **数据类型**: 高分辨率遥感影像
 - **应用场景**: 城市规划、地物分类
-- **数据大小**: ~1GB
+- **数据大小**: ~3GB
 
 #### 🔗 下载链接
 - **百度网盘**: [Toronto数据集](https://pan.baidu.com/s/12KZ4yYpPSWDErF6xej0Abw)
@@ -122,8 +122,8 @@ ISPRS_Potsdam/
 |--------|------|--------|------|
 | LoveDA | [下载](https://pan.baidu.com/s/1bBQ5bx_cPRhFGWElEX5n1Q) | `5prc` | ~3GB |
 | Potsdam | [下载](https://pan.baidu.com/s/1SgoM8-_JIMJbXyQ9i7eDtw) | `lala` | ~15GB |
-| Vaihingen | [下载](https://pan.baidu.com/s/1SA49cZGGuMvanqKmXvDk9w) | `lala` | ~2GB |
-| Toronto | [下载](https://pan.baidu.com/s/12KZ4yYpPSWDErF6xej0Abw) | `lala` | ~1GB |
+| Vaihingen | [下载](https://pan.baidu.com/s/1SA49cZGGuMvanqKmXvDk9w) | `lala` | ~3GB |
+| Toronto | [下载](https://pan.baidu.com/s/12KZ4yYpPSWDErF6xej0Abw) | `lala` | ~3GB |
 
 ### 📚 原始数据源
 - LoveDA: [官方下载页面](https://github.com/Junjue-Wang/LoveDA)
@@ -217,12 +217,12 @@ print(f"加载完成: {len(images)} 张图像")
 
 ### 📊 数据集对比
 
-| 数据集 | 分辨率 | 类别数 | 样本数 | 特点 |
-|--------|--------|--------|--------|------|
-| LoveDA | 1024×1024 | 7 | 10,000+ | 城市vs乡村，领域自适应 |
-| Potsdam | 6000×6000 | 6 | 38 | 超高分辨率，多光谱 |
-| Vaihingen | 3000×3000 | 6 | 33 | 高分辨率，航空影像 |
-| Toronto | 变化 | 多种 | 变化 | 城市规划应用 |
+| 数据集 | 分辨率 | 类别数 | 样本数 | 大小 | 特点 |
+|--------|--------|--------|--------|------|------|
+| LoveDA | 1024×1024 | 7 | 10,000+ | ~3GB | 城市vs乡村，领域自适应 |
+| Potsdam | 6000×6000 | 6 | 38 | ~15GB | 超高分辨率，多光谱 |
+| Vaihingen | 3000×3000 | 6 | 33 | ~3GB | 高分辨率，航空影像 |
+| Toronto | 变化 | 多种 | 变化 | ~3GB | 城市规划应用 |
 
 ## 📄 许可证
 
